@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+#Heading {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.gradient-text {
+    background: linear-gradient(to bottom, #06286E, #164EC0);
+    -webkit-background-clip: text;
+    /* Clip text to the background */
+    color: transparent;
+    /* Set text color to transparent so that the background gradient is visible through the text */
+}
+
+
+.questions {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    width: 848px;
+    min-height: 58px;
+    border: 1px solid blue; 
+    cursor: pointer;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 600;
+} 
